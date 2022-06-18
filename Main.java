@@ -10,5 +10,8 @@ public class Main {
         StackOperation.addElement();
         System.out.println("\n===================");
 
+        System.out.println("Delete last element from stack");
+        StackOperation.popElement();
+        System.out.println("\n===================");
     }
 }

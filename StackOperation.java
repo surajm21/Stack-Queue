@@ -20,4 +20,11 @@ public class StackOperation {
         System.out.println("\nAfter Pop:");
         list.print();
     }
+    public static void queueElement() {
+        StackAndQueue list =new StackAndQueue();
+        list.queue(56);
+        list.queue(30);
+        list.queue(70);
+        list.print();
+    }
 }
